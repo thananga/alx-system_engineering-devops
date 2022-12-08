@@ -9,4 +9,4 @@ echo "##
 # See the opendirectoryd(8) man page for additional information about
 # Open Directory.
 ##"
-less /etc/passwd | head -n 10 
+head -n 10 /etc/passwd | less 
