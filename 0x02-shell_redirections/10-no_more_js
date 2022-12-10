@@ -1,2 +1,2 @@
 #!/bin/bash
-find *.js -maxdepth 2 -type f -exec rm -f {} \;
+find *.js -maxdepth 2 -type f -exec rm -Rf {} \;
